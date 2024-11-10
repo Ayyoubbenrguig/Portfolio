@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elbarhichi.me",
+  "homepage": "https://www.benrguig.com",
   "dependencies": {
     "@react-pdf/renderer": "^4.0.0",
     "@testing-library/jest-dom": "^5.16.2",

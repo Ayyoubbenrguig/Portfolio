@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://Benrguig.me/" target="_blank">Benrguig.me</a>
+  <a href="https://Benrguig.com/" target="_blank">Benrguig.com</a>
 </h2>
 
 
@@ -18,7 +18,7 @@ This repo is  ased on a modified version of portfolio by [Badredine](https://git
 
 ## Built With
 
-My personal portfolio <a href="https://Benrguig.me/" target="_blank">Benrguig.me</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://www.Benrguig.com/" target="_blank">www.Benrguig.com</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
