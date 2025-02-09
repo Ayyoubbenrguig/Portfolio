@@ -51,24 +51,6 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="October 2023 - August 2024"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdBriefcase />}
-  >
-    <h3 className="vertical-timeline-element-title">Junior Entreprise JECC | Business Analyst</h3>
-    {/* <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4> */}
-    <p>
-    • Worked as a Junior consultant, where I managed and spearheaded projects for several companies such as TRIA Company, for which
-    I conducted a comprehensive assessment of Moroccan pasta market and competitor analyses across various
-    locations in Morocco (including Rabat, Casablanca, Tangier, Agadir, Tetouan, etc.), designing impactful questionnaires and creating
-    visually intuitive dashboards to guide strategic decision-making for the launch of a new pasta range, ultimately
-    providing valuable insights that significantly contributed to our client's decision process aiding strategic decision-making.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="November 2023 - Mars 2024 "
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
@@ -82,11 +64,6 @@ function Experience() {
     <br />
     </p>
   </VerticalTimelineElement>
-
-
-
-
-
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -95,7 +72,7 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title"> Groupe OCP |  </h3>
+    <h3 className="vertical-timeline-element-title"> Groupe OCP |Data scientist  </h3>
     {/* <h4 className="vertical-timeline-element-subtitle">EL Jadida, Morocco</h4> */}
     <p>
     • contributed to a preventive maintenance project by collecting and analyzing equipment data to develop a maintenance plan
