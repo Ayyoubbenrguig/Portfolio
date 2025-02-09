@@ -10,7 +10,25 @@ import { IoMdBriefcase } from "react-icons/io";
 function Experience() {
   return (
     <VerticalTimeline>
-  
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="Since February 2024"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdBriefcase />}
+  >
+    <h3 className="vertical-timeline-element-title">Renault | Data Scientist – Mobility & CO₂ Forecasting</h3>
+    {/* <h4 className="vertical-timeline-element-subtitle">Guyancourt, France</h4> */}
+    <p>
+    .•Developed data-driven models to analyze mobility patterns and CO₂ emissions, leveraging machine learning techniques such as classification and multivariate analysis.
+     <br />• Designed and implemented data fusion methods to integrate heterogeneous datasets from various sources (INSEE, CEREMA, SDES, Renault telemetry) for predictive studies.
+     <br />• Simulated decarbonization scenarios by applying AI-based forecasting models to assess the impact of innovations on emissions reduction.
+     <br />• Built automated reporting pipelines using SQL and Google Cloud Platform (GCP), enabling real-time updates and visualization via Looker Studio and Spotfire.
+     <br />• Conducted research on sustainable mobility trends, regulatory impacts, and technological advancements to support strategic decision-making.
+      </p>
+  </VerticalTimelineElement>  
 
 
   <VerticalTimelineElement
