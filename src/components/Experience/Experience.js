@@ -43,12 +43,27 @@ function Experience() {
       </p>
   </VerticalTimelineElement>
 
-
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="April 2024 - August 2024"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdBriefcase />}
+  >
+    <h3 className="vertical-timeline-element-title">INTELCIA | AI Engineer Intern</h3>
+    <p>
+    • Designed and deployed RAG-based chatbots for major clients, improving answer accuracy to 92% using advanced techniques (Semantic Chunking, History-Aware Retriever, Multi-Query Retriever, Query Decomposition).
+    <br />• Built functional demos and collaborated with cross-functional teams to align chatbot behavior with business needs.
+    <br /><br /><strong>Skills:</strong> LLMs, LangChain, Azure, OpenAI, Claude, Embeddings, Streamlit, LangSmith.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="June 2023 - August 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
@@ -59,26 +74,12 @@ function Experience() {
     See all the report here: <a href="https://github.com/Ayyoubbenrguig/Automatisation-de-la-d-tection-d-erreurs-d-impression-">Project Link</a>
     </p>
   </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="November 2023 - March 2024"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdBriefcase />}
-  >
-    <h3 className="vertical-timeline-element-title">Meriskill | Data Analyst</h3>
-    <p>
-    • Focused on data analysis and visualization using Power BI to preprocess, visualize, and analyze data for insightful reporting.
-    <br />• Involved data cleaning and transformation and creating interactive dashboards, leveraging Power BI and SQL for efficient data management and analysis.
-    <br />
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="July 2023 - September 2023"
+    date="July 2022 - August 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
