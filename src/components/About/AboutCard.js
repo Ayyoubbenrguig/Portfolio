@@ -7,15 +7,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I am <span className="purple">Ayyoub Benrguig</span>, a final-year engineering student at <span className="purple">Ensimag</span>.
+            Hi, I'm <span className="purple">Ayyoub Benrguig</span>, a Data Science and AI engineer currently completing my studies at <span className="purple">Ensimag, Grenoble INP</span>.
             <br />
-            <br />Before joining Ensimag, I spent two years of at <span className="purple">École Centrale Casablanca</span>, where I gained a strong foundation in general engineering and computer vision
+            <br />I previously graduated as a Data Science Engineer from <span className="purple">École Centrale Casablanca</span>, where I built a strong foundation in applied mathematics, general engineering, and artificial intelligence. These three years shaped my analytical mindset and sparked my deep interest in machine learning and intelligent systems.
             <br />
-            <br />I’m particularly passionate about <span className="purple">Artificial Intelligence</span>, which is why I’ve focused my academic projects around AI, such as prediction systems, obstacle detection, and recommendation systems. My most recent internship as an <span className="purple">AI consultant</span> gave me hands-on experience working on an advanced chatbot architectures, further fueling my interest in technical consulting.
+            <br />My journey has since evolved toward <span className="purple">Artificial Intelligence</span>, <span className="purple">LLMs</span>, <span className="purple">NLP</span>, and <span className="purple">Data Engineering</span>. At Ensimag, I further strengthened these skills through advanced courses in Deep Learning, Reinforcement Learning, Computer Vision, and Natural Language Processing.
             <br />
-            <br />This portfolio reflects my journey, showcasing not only my projects, education, and experiences, but also the certifications I’ve earned along the way. You’ll find insights into the <span className="purple">AI-driven solutions</span> I’ve worked on, the challenges I’ve tackled, and the skills I’ve developed through formal training and hands-on work.
+            <br />Professionally, I've worked on impactful projects—from <span className="purple">RAG-based chatbot architectures</span> to <span className="purple">computer vision systems</span> and <span className="purple">data pipelines</span> in production environments. These experiences allowed me to blend engineering rigor with AI innovation and reinforced my passion for building reliable, scalable, and meaningful AI solutions.
             <br />
-            <br />Feel free to explore and reach out if you’d like to know more about my journey or the projects I’ve been involved in.
+            <br />This portfolio showcases my work:
+            <br />• AI-driven applications and prototypes
+            <br />• End-to-end data pipelines
+            <br />• Industry internships in innovation and data engineering
+            <br />• Certifications, skills, and the challenges I've tackled
+            <br />
+            <br />Feel free to explore, and don't hesitate to reach out if you'd like to discuss AI, data, or potential collaborations.
           </p>
 
           <p style={{ color: "rgb(96, 136, 224)" }}>
