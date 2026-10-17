@@ -5,8 +5,6 @@ import './VerticalTimeline.css';
 import './VerticalTimelineElement.css';
 import { IoMdBriefcase } from "react-icons/io";
 
-
-
 function Experience() {
   return (
     <VerticalTimeline>
@@ -19,11 +17,13 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">Renault Group – Quality Department (Incidentology) | Data & Tools Engineer – Apprenticeship</h3>
+    <h3 className="vertical-timeline-element-title">Renault Group – Quality Department (Incidentology) | Data Scientist / ML Engineer – Data &amp; AI Quality</h3>
     <p>
-    • Working in a transversal squad supporting incidentology teams.
-     <br />• Developing AI/ML methods, building operational dashboards, and automating incident data workflows to improve analysis and decision-making.
-     <br /><br /><strong>Skills:</strong> NLP, ML, Data Engineering, Dashboarding, Business Collaboration.
+    • Developing AI/ML solutions to automate the classification of technical incidents on Multimedia &amp; Connected Services.
+     <br />• Designing Gemini / Vertex AI systems covering 25+ business categories on multilingual and noisy data, with prompting, disambiguation rules and few-shot learning.
+     <br />• Developing LinearSVC, XGBoost and CatBoost models, with feature engineering, analysis of 160+ variables and LLM vs ML benchmarking.
+     <br />• Designing and shipping Looker dashboards for quality indicators, customer complaints and ADAS &amp; ADAM scopes, in the Squad Data &amp; Tools.
+     <br /><br /><strong>Skills:</strong> Python, SQL, Gemini, Vertex AI, LinearSVC, XGBoost, CatBoost, Looker, NLP, Data Engineering.
       </p>
   </VerticalTimelineElement>
 
@@ -35,11 +35,12 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">Renault Group – Futurama (Innovation) | Data Scientist & AI Engineer Intern</h3>
+    <h3 className="vertical-timeline-element-title">Renault Group – Futurama (Innovation) | Data Scientist – Final Year Project</h3>
     <p>
-    • Developed an end-to-end RAG-based chatbot on Google Cloud (Vertex AI).
-     <br />• Built interactive dashboards, created a multi-source data lake (GCS & BigQuery), and designed an automated data pipeline for vehicle fleet datasets.
-     <br /><br /><strong>Skills:</strong> GCP, Vertex AI, LLMs, NLP, Data Engineering, Dashboards.
+    • Developed an end-to-end RAG-based conversational assistant on Google Cloud (Vertex AI, Gemini) to query internal knowledge bases.
+     <br />• Designed automated data pipelines on BigQuery and GCS for multi-source mobility datasets.
+     <br />• Built interactive dashboards (Looker Studio / Spotfire) and automated data processing.
+     <br /><br /><strong>Skills:</strong> GCP, Vertex AI, Gemini, RAG, LLMs, NLP, Data Engineering, Dashboards.
       </p>
   </VerticalTimelineElement>
 
@@ -67,11 +68,12 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">Tecpap | Data Science & AI Consultant</h3>
+    <h3 className="vertical-timeline-element-title">Tecpap | Computer Vision Intern</h3>
     <p>
-    • Developed a computer vision-based anomaly detection system for identifying printing errors on kraft paper bags using deep learning models like CNN, ResNet, and VGG16.
-    <br />• Focused on automating quality control by implementing real-time image classification to distinguish compliant from non-compliant products.
-    See all the report here: <a href="https://github.com/Ayyoubbenrguig/Automatisation-de-la-d-tection-d-erreurs-d-impression-">Project Link</a>
+    • Developed CNN / GAN models for real-time industrial defect detection on printing lines.
+    <br />• Built Computer Vision pipelines with OpenCV, PyTorch and TensorFlow, containerized with Docker and orchestrated with Kubernetes.
+    <br />• Reduced manual inspection effort and improved defect detection accuracy.
+    <br /><br /><strong>Skills:</strong> CNN, GAN, OpenCV, PyTorch, TensorFlow, Docker, Kubernetes, Computer Vision.
     </p>
   </VerticalTimelineElement>
 
@@ -83,10 +85,12 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">Groupe OCP | Data Scientist</h3>
+    <h3 className="vertical-timeline-element-title">Groupe OCP | Data Science Intern</h3>
     <p>
-    • Contributed to a preventive maintenance project by collecting and analyzing equipment data to develop a maintenance plan.
-    <br />• Focused on optimizing equipment performance and ensuring operational continuity, utilizing data storage, cloud solutions, and industrial monitoring techniques.
+    • Contributed to a predictive maintenance project by collecting and analyzing equipment data to develop a maintenance plan.
+    <br />• Automated data collection and cleaning with web scraping scripts (BeautifulSoup, Scrapy) and structured databases in MySQL.
+    <br />• Developed Machine Learning models (SVM, logistic regression, decision trees) to anticipate failures and optimize interventions.
+    <br /><br /><strong>Skills:</strong> Python, SQL, MySQL, BeautifulSoup, Scrapy, SVM, Logistic Regression, Decision Trees.
     </p>
   </VerticalTimelineElement>
 

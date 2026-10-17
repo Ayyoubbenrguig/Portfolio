@@ -7,7 +7,6 @@ import Toolstack from "./Toolstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
-
 function About() {
   return (
     <Container fluid className="about-section">
@@ -36,7 +35,15 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-         <strong className="purple">Expertise </strong> I Possess
+          <strong className="purple">Languages</strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col md={10} style={{ color: "white", textAlign: "left" }}>
+            <p>French (DALF C1) | English (B2) | Arabic (Native)</p>
+          </Col>
+        </Row>
+        <h1 className="project-heading">
+          <strong className="purple">Expertise </strong> I Possess
         </h1>
 
         <Techstack />
@@ -45,7 +52,6 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
 
         <Github />
       </Container>

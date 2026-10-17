@@ -12,9 +12,6 @@ import uml from "../../Assets/Certification/uml.jpg";
 import cn from "../../Assets/Certification/cn.jpg";
 import DL_R from "../../Assets/Certification/DL_R.jpg";
 
-
-
-
 function Certification() {
   return (
     <Container fluid className="project-section">
@@ -27,7 +24,25 @@ function Certification() {
           In this section you'll find certifications of courses and specializations that I enrolled.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DL}
+              isBlog={false}
+              title="Dataiku ML Practitioner"
+              description="Dataiku — Issued Oct 2025. ML Practitioner certification covering machine learning workflows, model design, evaluation and deployment on Dataiku."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DL_R}
+              isBlog={false}
+              title="Dataiku Core Designer"
+              description="Dataiku — Issued Oct 2025. Core Designer certification covering data preparation, visual recipes, workflows and collaboration on Dataiku."
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sm}
@@ -49,7 +64,7 @@ function Certification() {
                 </>
               }
               courseraLink="https://coursera.org/share/49dc3ef0ab34f16eac5891d0050ddcf2"
-              />
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -57,8 +72,9 @@ function Certification() {
               imgPath={ibm}
               isBlog={false}
               title="IBM Data Science"
-              description=" 
-              In this 10 courses Professional Certificate, I developed and honed hands-on 
+              description="
+              IBM Data Science Specialization — Coursera — Issued Jul 2023.
+              In this 10 courses Professional Certificate, I developed and honed hands-on
               skills in Data Science and Machine Learning. I started with
               an orientation of Data Science and its Methodology, became familiar
               and used a variety of data science tools, learned Python and SQL,
@@ -68,9 +84,9 @@ function Certification() {
               apply and demonstrate my knowledge and skills.
               "
               courseraLink="https://coursera.org/share/707f69773f0754a1f38f196f38ff791b"
-              />
+            />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gp}
@@ -78,6 +94,7 @@ function Certification() {
               title="Google Project Management"
               description={
                 <>
+              Google Project Management: Specialization — Issued Nov 2022.
               In this Certificate, I have
               completed six courses, developed by Google, that include hands-on,
               practice-based assessments and are designed to prepare them for
@@ -92,8 +109,8 @@ function Certification() {
                 </>
               }
               courseraLink="https://coursera.org/verify/professional-cert/E2TFH4L2ZWLN"
-              />
-          </Col>    
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Ri}
@@ -101,9 +118,10 @@ function Certification() {
               title="Les bits et les octets des réseaux informatiques"
               description={
                 <>
-              This course provided a strong foundation in computer networking concepts, covering topics like network 
-              protocols, IP addressing, and data transmission. Through hands-on practice with Cisco Packet Tracer, 
-              I developed practical skills in configuring and troubleshooting network setups, preparing me to work on 
+              Coursera — Issued Jul 2023.
+              This course provided a strong foundation in computer networking concepts, covering topics like network
+              protocols, IP addressing, and data transmission. Through hands-on practice with Cisco Packet Tracer,
+              I developed practical skills in configuring and troubleshooting network setups, preparing me to work on
               real-world networking projects.
               <br />
               <br />
@@ -111,7 +129,7 @@ function Certification() {
                 </>
               }
               courseraLink="https://coursera.org/share/4002ae45d6554edd754d432f5cf15131"
-              />
+            />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -119,12 +137,13 @@ function Certification() {
               isBlog={false}
               title="Client Needs and Software Requirements"
               description="
+              Coursera — Issued May 2023.
               In this course, I learned create clear requirements to drive effective software development,
-              how to visualize client needs using low-fidelity prototypes, how to maximize the effectiveness 
+              how to visualize client needs using low-fidelity prototypes, how to maximize the effectiveness
               of client interactions and how to adapt to changing product requirements
               "
               courseraLink="https://coursera.org/share/76e027ed18e2156f1667206730f494e4"
-              />
+            />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -132,17 +151,15 @@ function Certification() {
               isBlog={false}
               title="Neural Networks and Deep Learning"
               description="
-              This course offred by DeepLearning.AI on Coursera, is an introductory program focused on neural networks 
-              and deep learning. It covers fundamental AI concepts, including the structure of neural networks, training 
-              deep learning models, and applying these models to real-world problems. Taught by Andrew Ng and his team, 
-              this course aims to provide learners with a solid understanding of deep learning fundamentals, 
+              This course offred by DeepLearning.AI on Coursera, is an introductory program focused on neural networks
+              and deep learning. It covers fundamental AI concepts, including the structure of neural networks, training
+              deep learning models, and applying these models to real-world problems. Taught by Andrew Ng and his team,
+              this course aims to provide learners with a solid understanding of deep learning fundamentals,
               along with practical tools to build and test their own neural networks.
               "
               courseraLink="https://coursera.org/share/5acabee8593dbfa9eca39c944cd8d819"
-              />
+            />
           </Col>
-          
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -152,17 +169,17 @@ function Certification() {
               description={
                 <>
               This course, part of the deep learning specialization, focuses on techniques to enhance deep neural network
-              performance, covering topics like hyperparameter tuning, regularization methods, and optimization strategies. 
-              Taught by Andrew Ng and his team, the course aims to equip learners with advanced skills to fine-tune and optimize 
+              performance, covering topics like hyperparameter tuning, regularization methods, and optimization strategies.
+              Taught by Andrew Ng and his team, the course aims to equip learners with advanced skills to fine-tune and optimize
               neural networks effectively.
               <br />
               <br />
                 </>
               }
               courseraLink="https://coursera.org/share/44db3e1396970a4c341698fcd20ef6a6"
-              />
+            />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={uml}
@@ -170,11 +187,12 @@ function Certification() {
               title="Modeling Software Systems using UML"
               description={
                 <>
+              Coursera — Issued Apr 2023.
               In this course, I learned how to create UML diagrams to model software systems.
                 </>
               }
               courseraLink="https://coursera.org/share/885a0a0c5613c0bd4628513435fa2b39"
-              />
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -183,7 +201,7 @@ function Certification() {
               isBlog={false}
               title="SoloLearn SQL"
               description={
-                <> 
+                <>
               In this specialization, I learned how to create and manipulate databases using SQL.
               <br />
               <br />
@@ -191,7 +209,7 @@ function Certification() {
                 </>
               }
               courseraLink="https://coursera.org/share/d7e7201f03f2241e1d27b2f085bb80a7"
-              />
+            />
           </Col>
         </Row>
       </Container>

@@ -5,8 +5,6 @@ import './VerticalTimeline.css';
 import './VerticalTimelineElement.css';
 import { IoMdSchool } from "react-icons/io";
 
-
-
 function Education() {
   return (
     <VerticalTimeline>
@@ -14,14 +12,14 @@ function Education() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2024 - present"
+    date="2024 - 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">Ensimag | Artificial Intelligence</h3>
+    <h3 className="vertical-timeline-element-title">Ensimag | Exchange Programme – Data Science Engineering (equivalent M2)</h3>
     <h4 className="vertical-timeline-element-subtitle">Grenoble, France</h4>
     <p>
-      Master's degree in Artificial Intelligence.
+      Exchange Programme – Data Science Engineering (equivalent M2).
       <br /><strong>Included courses</strong>  : Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision, Natural Language Processing, Data Mining, Probabilistic Graphical Models, etc.
     </p>
   </VerticalTimelineElement>
@@ -33,13 +31,13 @@ function Education() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">Ecole Centrale Casablanca | Systems Engineering </h3>
+    <h3 className="vertical-timeline-element-title">Ecole Centrale Casablanca | Engineering Degree in Data Science</h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-    Engineer's degree in General Engineering with a focus on Data Science.
+    Engineering Degree in Data Science.
     <br /><strong>Included courses</strong>  : Probability, Statistics, Optimization, Algorithms, Data Structures, Object-Oriented Programming, Operations Research. etc.
     <br />
-    <strong>Grade</strong> : Ranked 17 out of 180 students.
+    <strong>Grade</strong> : Ranked 5 out of 180 students.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
