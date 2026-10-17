@@ -55,6 +55,17 @@ function ProjectCards(props) {
             {"See certification"}
           </Button>
         )}
+        {props.credentialLink && (
+          <Button
+            variant="info"
+            href={props.credentialLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"See certification"}
+          </Button>
+        )}
         {"\n"}
         {"\n"}
         {!props.isBlog && props.demoLink && (
