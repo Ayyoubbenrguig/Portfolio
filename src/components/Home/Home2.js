@@ -19,21 +19,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              
-            It all began with a spark of curiosity and my participation in the <i> <b className="purple">National Olympiads of Informatics</b> </i>
-            , where I first discovered the incredible world of algorithms and problem-solving.
-            <br />
-            <br />Fast forward to today, I'm a final-year <i> <b className="purple">Artificial Intelligence</b> </i> Engineering student at <i> <b className="purple">Ensimag</b> </i>, with a minor in Innovation.
-            
-            <br />
-            <br /> My passion for  <i> <b className="purple">Data Science</b> </i> and <i> <b className="purple">AI projects</b> </i> drives me every day as I explore the power of technology to solve real-world problems.
-
-            <br />
-            <br />Self-motivated, agile-forward thinker with a knack for communication and teamwork. Whether I’m diving deep into <i> <b className="purple">data analytics</b> </i> or collaborating on cutting-edge <i> <b className="purple">AI models</b> </i>, I'm constantly pushing the boundaries of what's possible.
-
-            <br />
-            <br />Beyond the technical realm, I’m passionate about creative problem-solving, always looking for <i> <b className="purple">innovative</b> </i> ways to blend technology and business to drive meaningful impact.
-              
+              I am an <i><b className="purple">AI &amp; Data Science Engineer</b></i> working at <i><b className="purple">Renault Group</b></i> on AI/ML solutions for automotive data.
+              <br />
+              <br />My work focuses on <i><b className="purple">incident classification</b></i>, <i><b className="purple">LLM / GenAI</b></i> systems (Gemini / Vertex AI, RAG, LangChain), and <i><b className="purple">data analytics</b></i> with Python, SQL, BigQuery and Looker dashboards.
+              <br />
+              <br />Previously, I graduated as a Data Science Engineer from <i><b className="purple">École Centrale Casablanca</b></i>, and I studied Artificial Intelligence at <i><b className="purple">Ensimag, Grenoble INP</b></i>.
+              <br />
+              <br />I build reliable, scalable AI solutions — from RAG chatbots and computer vision systems to production data pipelines — and I care about measurable impact for business teams.
             </p>
           </Col>
           <Col md={4} className="myAvtar d-flex align-items-center">
@@ -61,7 +53,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ayyoub-benrguig-31b480247"
+                  href="https://www.linkedin.com/in/ayyoub-benrguig"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="ayyoub.benrguig@grenoble-inp.fr"
+                  href="mailto:ayyoubbenrguig@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,10 +82,12 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>Paris, France</p>
           </Col>
         </Row>
       </Container>
     </Container>
   );
 }
+
 export default Home2;
