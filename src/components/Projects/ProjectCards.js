@@ -10,7 +10,7 @@ import { SiCoursera } from "react-icons/si"; // Added Coursera icon
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {props.imgPath && (<Card.Img variant="top" src={props.imgPath} alt="card-img" />)}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
