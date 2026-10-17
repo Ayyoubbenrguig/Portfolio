@@ -27,7 +27,6 @@ function Certification() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DL}
               isBlog={false}
               title="Dataiku ML Practitioner"
               description="Dataiku — Issued Oct 2025. ML Practitioner certification covering machine learning workflows, model design, evaluation and deployment on Dataiku."
@@ -36,7 +35,6 @@ function Certification() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DL_R}
               isBlog={false}
               title="Dataiku Core Designer"
               description="Dataiku — Issued Oct 2025. Core Designer certification covering data preparation, visual recipes, workflows and collaboration on Dataiku."
