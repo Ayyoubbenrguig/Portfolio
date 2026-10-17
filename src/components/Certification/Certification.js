@@ -29,7 +29,8 @@ function Certification() {
             <ProjectCard
               isBlog={false}
               title="Dataiku ML Practitioner"
-              description="Dataiku — Issued Oct 2025. ML Practitioner certification covering machine learning workflows, model design, evaluation and deployment on Dataiku."
+              description="Dataiku — Issued Oct 31, 2025. ML Practitioner certification covering machine learning workflows, model design, evaluation and deployment on Dataiku."
+              credentialLink="https://verify.skilljar.com/c/iy4uy7s63hyn"
             />
           </Col>
 
@@ -37,7 +38,8 @@ function Certification() {
             <ProjectCard
               isBlog={false}
               title="Dataiku Core Designer"
-              description="Dataiku — Issued Oct 2025. Core Designer certification covering data preparation, visual recipes, workflows and collaboration on Dataiku."
+              description="Dataiku — Issued Oct 30, 2025. Core Designer certification covering data preparation, visual recipes, workflows and collaboration on Dataiku."
+              credentialLink="https://verify.skilljar.com/c/jzk4otuw3jzf"
             />
           </Col>
 
