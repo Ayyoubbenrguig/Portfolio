@@ -20,7 +20,7 @@ function Education() {
     <h4 className="vertical-timeline-element-subtitle">Grenoble, France</h4>
     <p>
       Exchange Programme – Data Science Engineering (equivalent M2).
-      <br /><strong>Included courses</strong>  : Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision, Natural Language Processing, Data Mining, Probabilistic Graphical Models, etc.
+      <br /><strong>Included courses</strong>  : Machine Learning, Deep Learning, Reinforcement Learning, Multi-Agent Systems, Computer Vision, Natural Language Processing, LLMs, Graph Theory, Data Mining, Probabilistic Graphical Models, etc.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
