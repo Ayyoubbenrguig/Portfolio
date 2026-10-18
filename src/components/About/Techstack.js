@@ -59,7 +59,7 @@ function Techstack() {
             <strong>Machine Learning / AI:</strong> Scikit-Learn, LinearSVC, XGBoost, CatBoost, PyTorch, TensorFlow, Transformers, NLP, Computer Vision
           </p>
           <p>
-            <strong>LLM &amp; GenAI:</strong> Gemini, Vertex AI, LangChain, RAG, OpenAI API, Claude, Embeddings, Prompt Engineering
+            <strong>LLM &amp; GenAI:</strong> Gemini, Vertex AI, LangChain, LangGraph, RAG, OpenAI API, Mistral, Llama, Hugging Face, Claude, Embeddings, Prompt Engineering
           </p>
           <p>
             <strong>Data Engineering:</strong> BigQuery, GCS, Airflow, Data Pipelines, Web Scraping
