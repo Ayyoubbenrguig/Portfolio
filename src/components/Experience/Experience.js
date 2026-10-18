@@ -13,17 +13,18 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="Since September 2025"
+    date="Since November 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">Renault Group – Quality Department (Incidentology) | Data Scientist / ML Engineer – Data &amp; AI Quality</h3>
+    <h3 className="vertical-timeline-element-title">Renault Group – Data &amp; AI Quality | Data Scientist / ML Engineer</h3>
     <p>
-    • Developing AI/ML solutions to automate the classification of technical incidents on Multimedia &amp; Connected Services.
-     <br />• Designing Gemini / Vertex AI systems covering 25+ business categories on multilingual and noisy data, with prompting, disambiguation rules and few-shot learning.
-     <br />• Developing LinearSVC, XGBoost and CatBoost models, with feature engineering, analysis of 160+ variables and LLM vs ML benchmarking.
-     <br />• Designing and shipping Looker dashboards for quality indicators, customer complaints and ADAS &amp; ADAM scopes, in the Squad Data &amp; Tools.
-     <br /><br /><strong>Skills:</strong> Python, SQL, Gemini, Vertex AI, LinearSVC, XGBoost, CatBoost, Looker, NLP, Data Engineering.
+    • Mission 1 — RAG-Based Conversational Assistant: developed a RAG-based conversational assistant using Gemini and Vertex AI to query internal Jira knowledge bases and retrieve relevant technical information.
+     <br />• Integrated LLM-powered retrieval capabilities into internal knowledge workflows using GCP, Python, and SQL.
+     <br />• Mission 2 — AI-Powered Technical Incident Classification: developing AI agent workflows for automated classification of customer technical incidents across 25+ business categories, leveraging LLMs and supervised Machine Learning.
+     <br />• Designing hybrid classification pipelines combining LLM-based classification, business rules, and ML models (LinearSVC, XGBoost, CatBoost), with feature engineering across 160+ features.
+     <br />• Benchmarking LLM, ML, and hybrid approaches using Precision, Recall, F1-score, confusion matrices, and error analysis to improve classification reliability and support model industrialization.
+     <br /><br /><strong>Skills:</strong> Python, SQL, Gemini, Vertex AI, RAG, LLMs, LinearSVC, XGBoost, CatBoost, GCP, BigQuery.
       </p>
   </VerticalTimelineElement>
 
@@ -31,16 +32,17 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="February 2025 - August 2025"
+    date="May 2025 - November 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">Renault Group – Futurama (Innovation) | Data Scientist – Final Year Project</h3>
+    <h3 className="vertical-timeline-element-title">Renault Group | AI Software Engineer Intern – Final-Year Internship (PFE)</h3>
     <p>
-    • Developed an end-to-end RAG-based conversational assistant on Google Cloud (Vertex AI, Gemini) to query internal knowledge bases.
-     <br />• Designed automated data pipelines on BigQuery and GCS for multi-source mobility datasets.
-     <br />• Built interactive dashboards (Looker Studio / Spotfire) and automated data processing.
-     <br /><br /><strong>Skills:</strong> GCP, Vertex AI, Gemini, RAG, LLMs, NLP, Data Engineering, Dashboards.
+    • Built and deployed a production-grade, voice-enabled AI assistant for in-car services using LangGraph, LLM APIs (OpenAI, Mistral, Llama), and multimodal pipelines integrating ASR/TTS, APIs, and retrieval systems on GCP and Azure.
+     <br />• Designed agentic workflows with tool calling, conversational memory, and context-aware orchestration to support low-latency in-vehicle interactions.
+     <br />• Developed an evaluation and observability framework using agents-as-judges to assess robustness, latency, hallucination rates, and user impact.
+     <br />• Collaborated with product and engineering teams to transform AI prototypes into scalable production services.
+     <br /><br /><strong>Skills:</strong> Python, FastAPI, LangChain, LangGraph, Gemini, Vertex AI, OpenAI, Mistral, Llama, Hugging Face, RAG, ASR/TTS, GCP, Azure, Docker, Kubernetes, CI/CD, LangSmith, Langfuse, OpenTelemetry.
       </p>
   </VerticalTimelineElement>
 
@@ -94,7 +96,7 @@ function Experience() {
     </p>
   </VerticalTimelineElement>
 
-  
+
 </VerticalTimeline>
   );
 }
