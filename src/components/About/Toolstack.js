@@ -53,7 +53,7 @@ function Toolstack() {
             <strong>BI &amp; Dashboards:</strong> Looker, Looker Studio, Spotfire, Power BI
           </p>
           <p>
-            <strong>LLM &amp; AI Tools:</strong> Gemini, OpenAI, Claude, LangChain, LangSmith
+            <strong>LLM &amp; AI Tools:</strong> Gemini, OpenAI, Claude, LangChain, LangSmith, Langfuse, OpenTelemetry
           </p>
         </Col>
       </Row>
