@@ -13,7 +13,7 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="Since November 2025"
+    date="Since September 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
@@ -32,7 +32,7 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="May 2025 - November 2025"
+    date="February 2025 - July 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
